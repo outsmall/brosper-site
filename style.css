@@ -5,8 +5,8 @@ nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 20px; }
 nav ul li a { color: white; text-decoration: none; font-weight: bold; }
 main { padding: 20px; max-width: 960px; margin: auto; }
 header img {
-    width: 60%;
-    max-height: 200px; /* 设置最大高度 */
+    width: 50%;
+    max-height: 138px; /* 设置最大高度 */
     object-fit: cover; /* 确保图片不变形 */
 }
 h1 { color: #003366; }
