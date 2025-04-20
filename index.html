@@ -3,33 +3,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Brosper</title>
-    <link rel="stylesheet" href="style.css">
-    <script>
-        function switchLang(lang) {
-            document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
-            document.getElementById('cn').style.display = lang === 'cn' ? 'block' : 'none';
-        }
-    </script>
+    <title>Brosper | Global Trade and Investment</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #063B8A; padding: 20px; color: white; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 40px; background-color: #f4f7fa; }
+        .footer { background-color: #063B8A; color: white; text-align: center; padding: 15px; }
+    </style>
 </head>
 <body>
-    <div class="language-switch">
-        <button onclick="switchLang('en')">English</button>
-        <button onclick="switchLang('cn')">中文</button>
+    <header>
+        <h1>Brosper</h1>
+        <nav>
+            <a href="#">Cobalt Supply</a>
+            <a href="#">Commodity Trade</a>
+            <a href="#">M&A Advisory</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Empowering Global Trade and Investment</h2>
+        <p>Reliable sourcing, sustainable partnerships, lasting impact.</p>
+
+        <h3>Our Expertise</h3>
+        <p>Our core team brings more than 15 years of international trade and investment expertise, each member having served over a decade at Fortune 500 companies. Established in 2016, Brosper connects strategic global resources with emerging markets, fostering growth and sustainable business relationships.</p>
+
+        <h3>Our Core Businesses</h3>
+        <ul>
+            <li><strong>Commodity Trading:</strong> Specializing in bulk commodities such as sugar, soybeans, corn, edible oils, and mineral ores (including cobalt, copper, molybdenum). Brosper actively sources from key resource-exporting countries across Africa and South America.</li>
+            <li><strong>Cobalt Sourcing:</strong> Leveraging deep and longstanding relationships, Brosper delivers ethically sourced, high-quality cobalt from the Democratic Republic of Congo (DRC) to European and global customers, ensuring consistent quality and competitive advantage.</li>
+            <li><strong>Investment Advisory (M&A):</strong> Providing strategic advisory for cross-border mergers and acquisitions, particularly in sectors involving natural resources, commodities, and industrial operations. Brosper’s extensive industry experience facilitates informed and impactful investment decisions.</li>
+        </ul>
+        
+        <h3>Secure Payment Terms</h3>
+        <p>Secure and flexible payment terms in line with international trade practices.</p>
+    </section>
+
+    <div class="footer">
+        © 2016–2025 Brosper Co., Ltd. All rights reserved.
     </div>
-    <div class="hero" style="background-image: url('header.jpg');">
-        <div class="overlay">
-            <h1 id="en">Empowering Global Trade & Investment</h1>
-            <h1 id="cn" style="display:none;">全球可信赖的贸易·投资专家</h1>
-        </div>
-    </div>
-    <main>
-        <section>
-            <h2 id="en">Our Expertise</h2>
-            <p id="en">Our core team has 15+ years of international trade and investment experience... (EN)</p>
-            <h2 id="cn" style="display:none;">我们的专长</h2>
-            <p id="cn" style="display:none;">我们的核心团队拥有15年以上国际贸易和投资经验...（中）</p>
-        </section>
-    </main>
 </body>
 </html>
