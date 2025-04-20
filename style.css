@@ -8,6 +8,7 @@ header img {
     width: 100%;
     max-height: 300px; /* 设置最大高度 */
     object-fit: cover; /* 确保图片不变形 */
+    margin: 0 auto;/* 确保图片居中 */
 }
 h1 { color: #003366; }
 ul { margin-left: 20px; }
