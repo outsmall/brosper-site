@@ -102,12 +102,14 @@ a:hover {
     gap: 6px; /* 减少导航项间距 */
   }
   
- header img {
-        width: 100%;  /* 仅在手机端设置图片宽度为容器的 90% */
+    header img {
+        width: 100%;
         height: auto;
-        object-fit: cover;
-        margin: 0 auto; /* 使图片居中显示 */
+        object-fit: cover; /* 保持图片覆盖整个容器 */
+        object-position: top; /* 将图片上移，确保更多区域显示 */
+        margin: 0 auto;
     }
+}
 
   nav ul li a {
     font-size: 1 rem; /* 增加手机端字体大小 */
