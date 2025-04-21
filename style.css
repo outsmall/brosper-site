@@ -54,7 +54,7 @@ main {
 /* 头部图片样式 */
 header img {
   width: 100%;
-  max-height: 200px;
+  max-height: 300px;
   object-fit: cover;
   margin: 0 auto;
 }
