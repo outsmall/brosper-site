@@ -1,14 +1,79 @@
-
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-nav { background-color: #003366; padding: 10px; }
-nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 20px; }
-nav ul li a { color: white; text-decoration: none; font-weight: bold; }
-main { padding: 20px; max-width: 960px; margin: auto; }
-header img {
-    width: 100%;
-    max-height: 200px; /* 设置最大高度 */
-    object-fit: cover; /* 确保图片不变形 */
-    margin: 0 auto;/* 确保图片居中 */
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6; /* 增加行间距，让文字更清晰 */
+  color: #333; /* 设置更柔和的文字颜色，避免纯黑 */
 }
-h1 { color: #003366; }
-ul { margin-left: 20px; }
+
+/* 导航栏 */
+nav {
+  background-color: #003366;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* 主内容区域 */
+main {
+  padding: 20px;
+  max-width: 960px;
+  margin: auto;
+  font-size: 1rem; /* 设置基础字体大小 */
+}
+
+/* 头部图片样式 */
+header img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+/* 标题样式 */
+h1 {
+  color: #003366;
+  font-size: 2.5rem; /* 增大标题字体 */
+  margin-bottom: 20px; /* 增加标题和正文的间距 */
+}
+
+/* 段落样式 */
+p {
+  margin-bottom: 20px; /* 增加段落之间的间距 */
+  font-size: 1.1rem; /* 增加段落字体大小 */
+  line-height: 1.8; /* 更大的行间距，提升可读性 */
+}
+
+/* 无序列表 */
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px; /* 增加列表与其他内容之间的间距 */
+}
+
+ul li {
+  margin-bottom: 10px; /* 增加列表项之间的间距 */
+}
+
+/* 优化链接的样式 */
+a {
+  color: #003366;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0055a5;
+}
