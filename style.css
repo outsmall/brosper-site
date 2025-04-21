@@ -102,6 +102,10 @@ a:hover {
     gap: 8px; /* 减少导航项间距 */
     padding: 10px 10px;  /* 进一步减少手机端导航栏上下的内边距 */
   }
+
+    header {
+        margin-top: 50px;  /* 将头部图片往下挪，调整为合适的值 */
+    }
   
     header img {
         width: 100%;
