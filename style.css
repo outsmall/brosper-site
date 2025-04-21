@@ -100,7 +100,7 @@ a:hover {
   nav ul {
     /*flex-direction: column; /* 导航项垂直排列 */
     gap: 8px; /* 减少导航项间距 */
-    padding: 10px 10px;  /* 进一步减少手机端导航栏上下的内边距 */
+    padding: 5px 5px;  /* 进一步减少手机端导航栏上下的内边距 */
   }
 
     header {
