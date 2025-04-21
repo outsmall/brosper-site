@@ -134,12 +134,10 @@ a:hover {
 
 /* 页脚样式 */
 footer {
-    background-color: #003366; /* 蓝色背景 */
+    background-color: #003366;  /* 设置蓝色背景 */
     padding: 10px;
-    color: white;
-    text-align: center;
+    color: white;  /* 文字颜色设置为白色 */
+    text-align: center;  /* 使文字居中 */
     position: relative;
     width: 100%;
-    bottom: 0;
-    margin-top: 20px;
 }
