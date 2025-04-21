@@ -136,8 +136,8 @@ a:hover {
 footer {
     background-color: #003366;  /* 设置蓝色背景 */
     padding: 10px;
-    color: white;  /* 文字颜色设置为白色 */
-    text-align: center;  /* 使文字居中 */
-    position: relative;
+    color: white;  /* 设置文字颜色为白色 */
+    text-align: center;  /* 确保文字居中 */
+    position: relative;  /* 确保页脚在页面底部 */
     width: 100%;
 }
