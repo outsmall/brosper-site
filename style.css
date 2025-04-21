@@ -125,3 +125,16 @@ a:hover {
     font-size: 1rem; /* 手机端适当调整段落字体 */
   }
 }
+
+
+/* 页脚样式 */
+footer {
+    background-color: #003366; /* 蓝色背景 */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px;
+}
