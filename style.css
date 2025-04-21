@@ -27,6 +27,22 @@ nav ul li a {
   font-weight: bold;
 }
 
+/* 导航栏 - 固定在顶部 */
+nav {
+  background-color: #003366;
+  padding: 10px;
+  position: fixed;  /* 固定在顶部 */
+  top: 0;
+  left: 0;
+  width: 100%;  /* 确保导航栏宽度占满全屏 */
+  z-index: 1000;  /* 确保导航栏位于其他内容之上 */
+}
+
+/* 内容区域，避免被导航栏遮挡 */
+main {
+  padding-top: 60px;  /* 添加顶部空间，避免内容被导航栏遮挡 */
+}
+
 /* 主内容区域 */
 main {
   padding: 20px;
