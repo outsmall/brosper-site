@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +11,33 @@
             padding: 0;
             color: #333;
         }
+        nav {
+            background-color: #003366;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
         header {
             background-color: #003366;
             padding: 20px;
             color: white;
             text-align: center;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
         }
         h1 {
             margin: 0;
@@ -59,21 +80,32 @@
 </head>
 <body>
 
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#co-balt">Cobalt</a></li>
+        <li><a href="#trade">Trade</a></li>
+        <li><a href="#advisory">Advisory</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
 <header>
+    <img src="header-image.jpg" alt="Business Advisory Header">
     <h1>Brosper - Strategic Business Advisory</h1>
 </header>
 
 <section>
     <h2>Strategic Business Advisory for European Market Entry</h2>
-    <p>With over 15 years of experience in China-Europe business operations and regulatory compliance, Brosper excels in providing expert guidance for companies seeking to expand into the European market. We specialize in helping businesses navigate the complexities of European regulations, with a particular focus on CE certification, Class I medical device registration, and other essential certifications needed for successful market entry and operations in Europe.</p>
+    <p>With over 15 years of experience in China-Europe business operations and regulatory compliance, Brosper excels in providing expert guidance for companies seeking to expand into the European market. We specialize in helping businesses navigate the complexities of European regulations, with a particular focus on medical device compliance management, CE certification, and medical device registration, ensuring compliance with the EU Medical Device Regulation (MDR) 2017/745, the EU In Vitro Diagnostic Regulation (IVDR) 2017/746, and the EUDAMED system for registration and post-market surveillance.</p>
     
     <h3>Our Services Include:</h3>
     <ul>
-        <li>CE certification and compliance management</li>
-        <li>Class I medical device registration and post-market surveillance</li>
-        <li>Market entry strategies tailored to European regulations</li>
-        <li>Support for regulatory approvals and related documentation</li>
-        <li>Ongoing operational support and compliance monitoring</li>
+        <li><strong>Medical device compliance management</strong> to ensure full regulatory adherence to European standards</li>
+        <li><strong>CE certification and medical device registration</strong> in compliance with (MDR) 2017/745, (IVDR) 2017/746, and the EUDAMED system, etc.</li>
+        <li><strong>EU Market entry strategies</strong> tailored to meet specific regulatory requirements for medical devices</li>
+        <li><strong>Support for regulatory approvals</strong> and the preparation of necessary documentation</li>
+        <li><strong>Ongoing operation and compliance support</strong> to ensure continued regulatory adherence post-market</li>
     </ul>
 </section>
 
