@@ -77,3 +77,26 @@ a {
 a:hover {
   color: #0055a5;
 }
+
+/* 手机端适配样式 */
+@media (max-width: 768px) {
+  /* 导航栏文字和间距调整 */
+  nav ul {
+    flex-direction: column; /* 导航项垂直排列 */
+    gap: 10px; /* 减少导航项间距 */
+  }
+
+  nav ul li a {
+    font-size: 1.2rem; /* 增加手机端字体大小 */
+  }
+
+  /* 调整标题大小 */
+  h1 {
+    font-size: 2rem; /* 手机端减小标题字体 */
+  }
+
+  /* 调整段落文字 */
+  p {
+    font-size: 1rem; /* 手机端适当调整段落字体 */
+  }
+}
